@@ -1,0 +1,131 @@
+  
+  
+  
+  body {
+    transition: background-color linear 1s;
+    
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Palatino;
+  }
+  /* Style the search box inside the navigation bar */
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 20px;
+    margin-top: 8px;
+    font-size: 20px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 20px 10px;
+    margin-top: 8px;
+    margin-right: 20px;
+    background: #ddd;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+
+  .browse {
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  .browse a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .browse a:hover {
+    background-color: #616161;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  strong {
+    color: #adadad;
+    font-size: 17.777pt;
+    
+  }
+  
+  body.phase1{
+    position:relative; 
+    background-color: #ffffff;
+    
+  }
+
+  .rectangle{
+    height: 100px;
+    width: relative;
+    background-color: black;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  div.polaroid {
+    padding: 10px;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+    color:black;
+  }
+  
+  body.phase2{
+    position:relative; 
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  body.phase3 {
+    background-color: #990000;
+    color: rgb(239, 213, 213);
+  }
+  
+iframe{
+  
+  mix-blend-mode: difference;
+  
+}
